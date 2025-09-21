@@ -1,6 +1,6 @@
 # discovery-service
 
-서비스 디스커버리 (Service Discovery)를 위한 [Spring Cloud Eureka Server](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html) 레포지토리입니다.
+서비스 디스커버리 (Service Discovery)를 위한 [Spring Cloud Eureka Server](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html) 레포지토리 입니다.
 
 ##  개요
 
