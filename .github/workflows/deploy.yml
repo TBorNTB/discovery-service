@@ -56,7 +56,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           debug: true
-          host: ${{ secrets.EC2_HOST_INFO_HUB_2 }}
+          host: ${{ secrets.EC2_HOST_APP }}
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script_stop: true
