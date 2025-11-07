@@ -61,7 +61,7 @@ jobs:
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script_stop: true
           script: |
-            ssh -o StrictHostKeyChecking=no -i ~/info_hub_pem_key.pem ubuntu@${{ secrets.EC2_HOST_APP_PRIVATE }} << 'EOF'
+            ssh -o StrictHostKeyChecking=no -i ~/info_hub_pem_key.pem ubuntu@${{ secrets.EC2_HOST_APP_PRIVATE }} '
             aws ecr get-login-password --region ap-northeast-2 | \
               docker login --username AWS --password-stdin 869508798906.dkr.ecr.ap-northeast-2.amazonaws.com
 
